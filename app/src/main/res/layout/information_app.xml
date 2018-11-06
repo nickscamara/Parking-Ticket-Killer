@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/informationboardd"
+    android:background="#33000000">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="238dp"
+        android:layout_height="318dp"
+        android:background="@drawable/markerboard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.227"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11">
+
+        <TextView
+            android:id="@+id/infoooo"
+            android:layout_width="221dp"
+            android:layout_height="316dp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginLeft="8dp"
+
+            android:maxLines="50"
+            android:scrollbars="vertical"
+            android:text="EZPark makes parking easy. We use the location services on your phone to determine when you are parking and where you are parking. Returning to your car to fill a meter is no longer necessary with EZPark, because we keep track of parking spot, and ensure that you only pay for the time you use. You can even integrate this service with a driving data sensor to completely automate the parking process. You don’t even have to click a button.
+It communicates information about the relative safety pots, helping you make the decisions that keep you and your family safe."
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>

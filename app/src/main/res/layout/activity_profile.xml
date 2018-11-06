@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgdColor"
+    tools:context="com.example.nick.ptk.ProfileActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="184dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/white" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="200dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile_banner" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="211dp"
+        android:layout_height="271dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profilebox" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="71dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plus_serial" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="134dp"
+        android:layout_height="88dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="118dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="184dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plate_box" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="108dp"
+        android:layout_height="51dp"
+        app:layout_constraintTop_toTopOf="@+id/imageView32"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        app:srcCompat="@drawable/paypal_btn" />
+
+    <ImageView
+        android:id="@+id/parkingggg"
+        android:layout_width="33dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/coinssss"
+        app:layout_constraintTop_toTopOf="@+id/imageView32"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+        app:srcCompat="@drawable/parking_points" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="92dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="356dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/awards" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="91dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="356dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView25"
+        app:layout_constraintStart_toEndOf="@+id/imageView23"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/insurance" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="86dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="356dp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toEndOf="@+id/imageView24"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/stats" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="189dp"
+        android:layout_height="123dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/profile_code" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="88dp"
+        android:layout_height="38dp"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView23"
+        app:layout_constraintRight_toRightOf="@+id/imageView23"
+        app:layout_constraintTop_toBottomOf="@+id/imageView23"
+        app:srcCompat="@drawable/rewards_text" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="95dp"
+        android:layout_height="42dp"
+
+        app:layout_constraintLeft_toLeftOf="@+id/imageView24"
+        app:layout_constraintRight_toRightOf="@+id/imageView24"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        app:srcCompat="@drawable/insurance_text" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="88dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView25"
+        app:layout_constraintRight_toRightOf="@+id/imageView25"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25"
+        app:srcCompat="@drawable/stats_text" />
+
+    <TextView
+        android:id="@+id/plateee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="8dp"
+
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+
+
+        app:layout_constraintStart_toEndOf="@id/stateee"
+        app:layout_constraintTop_toTopOf="@id/stateee"
+        app:layout_constraintBottom_toBottomOf="@id/stateee"/>
+
+    <TextView
+        android:id="@+id/nameeee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="164dp"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/stateee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="200dp"
+        android:text="NH"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/codeeee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="89078"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView27"
+        app:layout_constraintStart_toStartOf="@+id/imageView27" />
+
+    <TextView
+        android:id="@+id/coinssss"
+        android:layout_width="62dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:text="89078"
+        android:textColor="@android:color/white"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView32" />
+
+    <ImageView
+        android:id="@+id/config"
+        android:layout_width="34dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/logout" />
+
+
+</android.support.constraint.ConstraintLayout>

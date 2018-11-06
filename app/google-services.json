@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "658350158995",
+    "firebase_url": "https://ptkfirebaseproject.firebaseio.com",
+    "project_id": "ptkfirebaseproject",
+    "storage_bucket": "ptkfirebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658350158995:android:cc7584fdae8eadc7",
+        "android_client_info": {
+          "package_name": "com.example.nick.ptk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658350158995-b64knglppj2lgbcvfddtmokrr4ntomud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nick.ptk",
+            "certificate_hash": "269f720704d0c733212ca1226d695bea03b9a02f"
+          }
+        },
+        {
+          "client_id": "658350158995-o5krdiam8gr9430v30as9ivmtqk0g4do.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq2YbE712nsrlmEwAW-FRvOlDTM12CR2k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658350158995-o5krdiam8gr9430v30as9ivmtqk0g4do.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
