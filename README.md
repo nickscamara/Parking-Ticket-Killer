@@ -1,5 +1,5 @@
 # Parking-Ticket-Killer
-3rd Place Winner Hackathon - A parking app for android that allow users to avoid parking tickets and receive bonus. It was based on a blockchain system and it uses google Firebase as its database.
+3rd Place Winner Hackathon - A parking app for android that allow users to avoid parking tickets and receive bonus.
 
 My team and I built an app that shows user near parking spots and let them
 pay for the parking. If you park legally you get coins that can be used to get
