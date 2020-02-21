@@ -1,4 +1,4 @@
-# Parking-Ticket-Killer
+# Parking Ticket Killer
 3rd Place Winner Hackathon - A parking app for android that allow users to avoid parking tickets and receive bonus.
 
 My team and I built an app that shows user near parking spots and let them
